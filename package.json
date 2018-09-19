@@ -1,0 +1,22 @@
+{
+  "name": "s33dco-palindrome",
+  "version": "0.1.0",
+  "description": "Plaindrome detector",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s33dco/palindrome.git"
+  },
+  "keywords": [
+    "palindrome"
+  ],
+  "author": "s33dco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s33dco/palindrome/issues"
+  },
+  "homepage": "https://github.com/s33dco/palindrome#readme"
+}
