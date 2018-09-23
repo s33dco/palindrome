@@ -20,12 +20,12 @@ function Phrase(content) {
     return this.content.match(/[a-z]/gi).join("");
   }
 
-  // Returns true if the phrase is a palindrome, false otherwise.
+  // Returns true if the phrase is a palindrome, false not or no letters in string.
   this.palindrome = function palindrome() {
-    if (this.content) {
-      return this.processedContent() === this.processedContent().reverse();
+    if (!this.content.match(/[a-z]/gi)) {
+      return false;
     } else {
-    return false;
+      return this.processedContent() === this.processedContent().reverse();
     }
   }
 }

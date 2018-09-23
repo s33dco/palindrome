@@ -15,6 +15,16 @@ describe("Phrase", function() {
 			assert(!emptyPhrase.palindrome());
 		});
 
+		it ("should return false for white space string", function(){
+			let whitePhrase = new Phrase("   ");
+			assert(!whitePhrase.palindrome());
+		});
+
+		it ("should return false for tab", function(){
+			let tabPhrase = new Phrase("\t");
+			assert(!tabPhrase.palindrome());
+		});
+
 		it ("should return true for a palindrome", function(){
 			let plainPalindrome = new Phrase("racecar");
 			assert(plainPalindrome.palindrome());
