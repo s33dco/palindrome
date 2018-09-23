@@ -1,6 +1,6 @@
 {
   "name": "s33dco-palindrome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plaindrome detector",
   "main": "index.js",
   "scripts": {
